@@ -1,0 +1,87 @@
+/* Button Styling */
+
+button{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    margin: 20px;
+}
+
+/* First Button */
+#cart-btn{
+    color: white;
+    background-color: #C63928;
+    padding: 1em 3em;
+    border: none;
+}
+
+#cart-btn:hover{
+    background-color: #EC4D50;
+}
+
+#play-btn{
+    color: #2A61FB;
+    background-color: #FDD835;
+    border: 3px solid #2A61FB;
+    padding: 0.8em 1em;
+    font-family: 'Gugi', cursive !important;
+}
+
+#play-btn:hover{
+    color: #FDD835;
+    background-color: #2A61FB;
+}
+
+#login-btn{
+    color: white;
+    border-radius: 25px;
+    padding: 0.6em 2.1em;
+    border: none;
+    background-image: linear-gradient(to right ,#5AD1DB ,#A7D384);
+}
+
+/* #login-btn:hover{
+    color: white;
+    background-image: linear-gradient(to left ,#5AD1DB ,#A7D384);
+} */
+
+#signup-btn{
+    color:#6C4BEB;
+    border: 3px solid #6C4BEB;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    background-color: white;
+}
+
+#signup-btn:hover{
+    color: white;
+    background-color:#6C4BEB;
+}
+
+#sub-btn{
+    background-image: linear-gradient(to bottom , #FAC532 ,#F5A531);
+    border: 3px solid #F5A531;
+    padding: 0.5em 1em;
+    color: white;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px grey;
+}
+
+#sub-btn:hover{
+    background-color: #F5A531;
+    background-image: none;
+}
+
+#twitter-btn{
+    color:#1A91DA ;
+    background-color: white;
+    border-radius: 50%;
+    border: 3px solid #1A91DA;
+    padding: 0.5em 0.6em;
+}
+
+#twitter-btn:hover{
+    color: white;
+    background-color:#1A91DA ;
+}
+
